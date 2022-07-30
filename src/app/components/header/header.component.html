@@ -1,0 +1,10 @@
+<div class="header">
+    <div class="logo">Tienda</div>
+
+    <div>
+        <span class="material-symbols-outlined clickable" routerLink="/cart">
+            shopping_cart
+        </span> 
+        <span class="qty" *ngIf="cart$ | async as cart">{{cart.length}}</span>
+    </div>
+</div>

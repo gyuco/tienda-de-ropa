@@ -1,0 +1,11 @@
+.cart-container, .cart-empty {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 100px;
+}
+
+.num_productos {
+    font-weight: 700;
+    text-align: center;
+}

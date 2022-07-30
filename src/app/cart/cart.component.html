@@ -1,0 +1,27 @@
+<div><a routerLink="/"> << Volver a lista productos</a></div>
+<ng-container *ngIf="cart$ | async as products; else cartEmpty">
+
+    <div class="num_productos">Productos ( {{products.length}} ) </div>
+
+    <div class="cart-container">
+        
+        <div class="card" *ngFor="let product of products">
+        <div class="card-title">
+            {{ product.name }}
+        </div>
+
+        <div class="card-img">
+            <img [src]="product.image" />
+        </div>
+
+        <div class="price">${{ product.price }}</div>
+        </div>
+
+    </div>
+
+</ng-container>
+<ng-template #cartEmpty> 
+    <div class="cart-empty">
+        No hay productos en el carrito 
+    </div>
+</ng-template>

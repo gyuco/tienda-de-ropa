@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "name": "Camisa",
+      "price": "3000",
+      "image": "https://serviciostricot.cl/uploads/224367.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Pantalon",
+      "price": "5020",
+      "image": "https://serviciostricot.cl/uploads/430096.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Campera",
+      "price": "5200",
+      "image": "https://serviciostricot.cl/uploads/224385.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Sueter",
+      "price": "2450",
+      "image": "https://serviciostricot.cl/uploads/430111.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Calzado",
+      "price": "2340",
+      "image": "https://serviciostricot.cl/uploads/estilo_vida/calzado-hombre-0-560.jpg"
+    }
+  ]
+}

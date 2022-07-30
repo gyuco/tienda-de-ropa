@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    font-weight: 700;
+}
+
+.qty {
+    color: white;
+    display: inline-table;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    padding: 1px;
+    background-color: blue;
+    border-radius: 50%;
+}
